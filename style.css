@@ -1,0 +1,205 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@400;747;767;900&display=swap');
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: "Mulish", sans-serif;
+    color: #000000;
+    line-height: 1.6;
+    box-sizing: border-box;
+}
+
+ul {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+    color: #000000;
+}
+
+h1, h2, h3 {
+    font-weight: 300;
+    line-height: 1.2;
+    margin: 10px 0;
+}
+
+p {
+    margin: 10px 0;
+}
+
+img {
+    width: 100%;
+}
+
+.container {
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 0 80px;
+    height: 100%;
+}
+
+.header {
+    background-color: rgba(0, 0, 0, 0.8);
+    color: #fff;
+    height: 650px;
+    padding: 0;
+    margin: 0;
+    position: relative;
+    background-position: 100% 57%;
+    background-image: linear-gradient(to right bottom, rgba(0,0,0,0.8), rgba(0,0,0,0.8)), url(img/hero.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.nav {
+    height: 80px;
+    background-color: rgba(0, 0, 0, 0.8);
+    width: 100%;
+    position: fixed;
+}
+
+.navbar a {
+    padding: 0 auto;
+    margin: 0 10px;
+    color: #fff;
+}
+
+.flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.nav-list {
+    font-size: 14px;
+}
+
+.navbar ul {
+    display: flex;
+}
+
+*::before, *::after {
+    margin: 0;
+    box-sizing: inherit;
+}
+
+
+.navbar .flex {
+    justify-content: space-between;
+}
+
+.btn {
+    display: inline-block;
+    padding: 10px 30px;
+    cursor: pointer;
+    background: #fff;
+    color: #fff;
+    border: none;
+}
+
+.navbar .btn {
+    color: #000000;
+}
+
+.center-text {
+    text-align: center;
+}
+
+.container .banner {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.banner {
+    padding-top: 3.2rem;
+    padding-bottom: 6.6rem;
+}
+
+
+.xl-text {
+    font-size: 55px;
+    font-weight: 550;
+    margin: 80px auto;
+    box-sizing: border-box;
+    max-width: 60rem;
+}
+
+.md-text {
+    font-size: 27px;
+    font-weight: 500;
+    margin: 10px auto;
+    padding: 20px 0;
+    box-sizing: border-box;
+    max-width: 55rem;
+    line-height: 1.4;
+}
+
+.xl-text span {
+    color: #b4d245;
+}
+
+
+.sm-text {
+    font-size: 15px;
+}
+
+
+.lg-btn {
+font-size: 15px;
+border-radius: 3px;
+box-shadow: 0 3px 10px rgba(0, 0, 0, 0.2);
+padding: 20px 65px;
+margin-top: 50px;
+font-weight: bold;
+cursor: pointer;
+position: relative;
+}
+
+.heading-btn {
+    background-image: linear-gradient(96.67deg, #34a853 0%, #b4d245 100%);
+}
+
+.heading-btn a {
+    color: #fff;
+    font-weight: 600;
+    margin:0;
+}
+
+.heading-btn:hover {
+    margin-top: 49px;
+    transition: all 0.4s;
+}
+
+.nav-btn:hover {
+    margin-top: -1px;
+}
+
+.navbar {
+    margin-top: 20px;
+}
+
+.img-cluster {
+    box-sizing: border-box;
+    border-color: red;
+    display: flex;
+    align-items: center;
+}
+
+.strip-section {
+    padding: 30px;
+    margin: auto;
+    position: relative;
+}
+
+#section1 :first-child {box-sizing: border-box;
+    border-color: red;
+
+    width: 300px;
+}
